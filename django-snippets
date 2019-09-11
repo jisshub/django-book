@@ -1,0 +1,27 @@
+installations
+-------------
+pip install Django
+
+check version
+-------------
+python -m django --version
+
+start project
+---------------
+django-admin startproject mysite
+
+Creating a Database
+-------------------
+python manage.py migrate
+
+The migrate command creates a new SQLite database and any necessary database tables, according to the settings file created by the startproject command
+
+Development Server
+---------------------
+python manage.py runserver
+
+This will start the Django development server
+
+
+
+
